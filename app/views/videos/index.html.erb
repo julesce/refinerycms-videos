@@ -1,0 +1,15 @@
+<% content_for :body_content_title do -%>
+  Videos
+<% end -%>
+
+<% content_for :body_content_left do %>
+  <ul class="videos">
+    <% @videos.each do |video| %>
+      <li>
+        <%= render :partial => 'shared/video', :locals => {:video => video} %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

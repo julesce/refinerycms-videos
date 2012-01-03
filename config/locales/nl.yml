@@ -1,0 +1,21 @@
+nl:
+  plugins:
+    videos:
+      title: Videos
+  admin:
+    videos:
+      actions:
+        create_new: Maak een nieuwe Video
+        reorder: Wijzig de volgorde van de Videos
+        reorder_done: Klaar met het wijzingen van de volgorde van de Videos
+      records:
+        title: Videos
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Videos. Druk op 'Maak een nieuwe Video' om de eerste aan te maken.
+      video:
+        view_live_html: Bekijk deze video op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze video
+        delete: Verwijder deze video voor eeuwig
+  videos:
+    show:
+      other: Andere Videos

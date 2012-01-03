@@ -1,0 +1,25 @@
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    videos:
+      title: Videos
+  admin:
+    videos:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Video
+        reorder: Réordonner les Videos
+        reorder_done: Fin de réordonnancement des Videos
+      records:
+        title: Videos
+        sorry_no_results: "Désolé ! Aucun résultat."
+        no_items_yet: 'Il n''y a actuellement aucun(e) Video. Cliquer sur "Créer un(e) nouve(au/l/lle) Video" pour créer votre premi(er/ère) video.'
+      video:
+        view_live_html: Voir ce(t/tte) video <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) video
+        delete: Supprimer définitivement ce(t/tte) video
+  videos:
+    show:
+      other: Autres Videos

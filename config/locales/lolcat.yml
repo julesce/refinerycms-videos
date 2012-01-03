@@ -1,0 +1,25 @@
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    videos:
+      title: Videos
+  admin:
+    videos:
+      actions:
+        create_new: CREATE NEW Video
+        reorder: REORDR Videos
+        reorder_done: DUN REORDERIN Videos
+      records:
+        title: Videos
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Videos YET. CLICK "CREATE NEW Video" 2 ADD UR FURST video.
+      video:
+        view_live_html: VIEW DIS video LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS video
+        delete: REMOOV DIS video FOREVR
+  videos:
+    show:
+      other: OTHR Videos
