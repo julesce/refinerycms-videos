@@ -7,15 +7,15 @@ if defined?(User)
   end
 end
 
-if defined?(Page)
-  page = Page.create(
-    :title => 'Videos',
-    :link_url => '/videos',
-    :deletable => false,
-    :position => ((Page.maximum(:position, :conditions => {:parent_id => nil}) || -1)+1),
-    :menu_match => '^/videos(\/|\/.+?|)$'
-  )
-  Page.default_parts.each do |default_page_part|
-    page.parts.create(:title => default_page_part, :body => nil)
-  end
-end
+#if defined?(Page)
+#  page = Page.create(
+#    :title => 'Videos',
+#    :link_url => '/videos',
+#    :deletable => false,
+#    :position => ((Page.maximum(:position, :conditions => {:parent_id => nil}) || -1)+1),
+#    :menu_match => '^/videos(\/|\/.+?|)$'
+#  )
+#  Page.default_parts.each do |default_page_part|
+#    page.parts.create(:title => default_page_part, :body => nil)
+#  end
+#end
