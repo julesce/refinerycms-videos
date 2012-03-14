@@ -2,17 +2,17 @@
 
 Simple videos engine for [Refinery CMS](http://refinerycms.com). 
 
-This version of `refinerycms-videos` supports Rails 3.0.x.
+This version of `refinerycms-videos` supports Rails 3.1.x and up.
 
 ## Requirements
 
-Refinery CMS version 1.0.0 or above.
+Refinery CMS version 2.0.x.
 
 ## Install
 
 Open up your ``Gemfile`` and add the following:
 
-    gem 'refinerycms-videos', '1.0', :git => 'git://github.com/julesce/refinerycms-videos.git'
+    gem 'refinerycms-videos', '~> 2.0.0'
 
 Now, run:
 
@@ -20,8 +20,12 @@ Now, run:
 
 Next, run:
 
-    rails generate refinerycms_videos
+    rails generate refinery:videos
 
-Finally migrate your database and you're done.
+Migrate your database:
 
     rake db:migrate
+
+And hook up the seed data:
+
+    rake db:seed

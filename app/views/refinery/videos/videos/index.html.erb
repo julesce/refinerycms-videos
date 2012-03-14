@@ -1,0 +1,15 @@
+<% content_for :body_content_left do %>
+  <ul class="videos">
+    <% @videos.each do |video| %>
+      <li>
+        <div class="tilevideo" targeturl="<%= video.youtube_url %>">
+          <h1><%= video.name %></h1>
+          <%= link_to('', video.youtube_url, :class => "ytlink") %>
+          <%= raw(video.body) %>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render '/refinery/content_page' %>
