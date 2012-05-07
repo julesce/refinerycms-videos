@@ -12,7 +12,7 @@ Refinery CMS version 2.0.x.
 
 Open up your ``Gemfile`` and add the following:
 
-    gem 'refinerycms-videos', '~> 2.0.0'
+    gem 'refinerycms-videos', '~> 2.0.1'
 
 Now, run:
 

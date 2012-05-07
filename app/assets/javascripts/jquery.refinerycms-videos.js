@@ -9,7 +9,7 @@ $(document).ready(function() {
       str = "http://www.youtube.com/embed/" + ytid + "?rel=0";
       $(this).attr("href", str);
       $(this).attr("complete", "true");
-      $(this).html($(this).html() + "<div class='ytvid_img'><img src='http://img.youtube.com/vi/" + ytid + "/0.jpg' width='290' /></div><img src='/images/video_play.png' class='pic_bg' />")
+      $(this).html($(this).html() + "<div class='ytvid_img'><img src='http://img.youtube.com/vi/" + ytid + "/0.jpg' width='290' /></div><img src='/assets/video_play.png' class='pic_bg' />")
     }
   });
 
